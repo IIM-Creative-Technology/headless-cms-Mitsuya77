@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projet_types",
+  "info": {
+    "singularName": "projet-type",
+    "pluralName": "projet-types",
+    "displayName": "ProjetType",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "projets": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::projet.projet",
+      "mappedBy": "projet_type"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "perso",
+        "iim",
+        "pro"
+      ]
+    }
+  }
+}

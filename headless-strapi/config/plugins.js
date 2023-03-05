@@ -5,7 +5,7 @@ module.exports = ({ env }) => ({
         providerOptions: {
           apiUrl: env('SUPABASE_API_URL'),
           apiKey: env('SUPABASE_API_KEY'),
-          bucket: env('SUPABASE_BUCKET'),
+          bucket: env('SUPABASE_API_BUCKET'),
           directory: env('SUPABASE_DIRECTORY'),
           options: {}
       },
@@ -26,12 +26,6 @@ module.exports = ({ env }) => ({
         removeAttributesKey: true,
         removeDataKey: true,
       },
-    },
-  },
-  ckeditor: {
-    enabled: true,
-    config: {
-      plugin: {},
     },
   },
 })
