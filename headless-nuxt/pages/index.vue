@@ -3,8 +3,7 @@
 
 
     <nav>
-        <div class="menu">
-            <p class="website_name">LOGO</p>
+        <div class="menu">	
             <div class="menu_links">
                 <a href="http://localhost:3000/" class="link">HOME</a>
                 <a href="" class="link">projects</a>
@@ -74,7 +73,7 @@
 				Filter par projet : 
 			</div>
 			<div class="filterItem">	
-				<button class="filter-btn" @click="filterProjet(type = 'all')">reset</button>
+				<button class="filter-btn" @click="filterProjet('all')">reset</button>
 				<button class="filter-btn" v-for="type in types" @click="filterProjet(type)">
 					{{ type }}
 							
@@ -82,14 +81,7 @@
 			</div>
 		</div>
 		<div class="aaa">
-			<div v-for="projet in filteredProjet" :key="projet.name" :projet="projet" ></div>
-		
-		</div>
-
-	
-	</div>
-	
-        <div v-for="projet in projets.data">
+			<div v-for="projet in filteredProjet" :key="projet.name" :projet="projet" >
             <nuxt-link :to="'/projects/' + projet.slug">
 				<div class="projcard-container">
 					<div class="projcard projcard-blue">
@@ -113,9 +105,8 @@
 					</div>
 				</div>
 			</nuxt-link>
-
-				
-	
+		</div>
+	</div>			
 	
 		</div>
            

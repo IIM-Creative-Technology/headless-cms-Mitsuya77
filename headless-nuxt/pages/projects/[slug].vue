@@ -2,7 +2,7 @@
     <div class="fond">  
         <nav>
         <div class="menu">
-            <p class="website_name">LOGO</p>
+            <a href="http://localhost:3000/" class="website_name">Revenir aux projets</a>
             <div class="menu_links">
                 <a href="http://localhost:3000/" class="link">HOME</a>
                 <a href="" class="link">projects</a>
