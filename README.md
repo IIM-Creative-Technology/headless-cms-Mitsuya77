@@ -26,7 +26,7 @@ npm install
 
 ### Compile Nuxt
 ```
-npm run serve
+npm run dev
 ```
 
 ### Compile Strapi
