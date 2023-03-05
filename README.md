@@ -39,6 +39,9 @@ npm run develop
 npm run lint
 ```
 
+#Documentation 
+https://nuxtjs.org/
+https://docs.strapi.io/
 
 ## Contributeur
 William Mouchon
