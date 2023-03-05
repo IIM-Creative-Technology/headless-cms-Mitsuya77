@@ -1,7 +1,7 @@
 # headless-cms-Mitsuya77
 #  Strapi et Nuxtjs
 
-#Objectif 
+### Objectif 
 
 ```
 - Créer un portfolio de vos projets
@@ -39,7 +39,7 @@ npm run develop
 npm run lint
 ```
 
-#Documentation 
+### Documentation 
 https://nuxtjs.org/
 https://docs.strapi.io/
 
