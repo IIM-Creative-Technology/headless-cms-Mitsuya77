@@ -38,6 +38,10 @@ npm run develop
 ```
 npm run lint
 ```
+### Compte de strapi 
+
+mail : william.mouchon@edu.devinci.fr
+mdp : William77600
 
 ### Documentation 
 https://nuxtjs.org/
